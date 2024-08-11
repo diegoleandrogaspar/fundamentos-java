@@ -1,4 +1,4 @@
-<h3>Exercícios de Prática em Java</h3>
+<h2>Exercícios de Prática em Java</h2>
 <p>Bem-vindo ao meu repositório de exercícios em Java! Este espaço foi criado para que eu possa praticar e aprimorar minhas habilidades de programação. 
 Os exercícios são divididos em diferentes tópicos fundamentais da linguagem Java.</p>
 
