@@ -20,8 +20,7 @@ public class Main4 {
         Entrada:
         2 16
         Saída: O JOGO DUROU 14 HORA(S)
-
-         */
+        */
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
@@ -29,19 +28,18 @@ public class Main4 {
         int inicial = sc.nextInt();
         int fim = sc.nextInt();
         
-        int resultado = 0;
-        int positivo =0;
+        int hora = 0;
 
-        int result = fim - inicial;
-        if (result < 0){
-         positivo =  Math.abs(result);
-             resultado = positivo - 24;
+        if (inicial == fim ){
+             hora = 24;
         }
-        int jogo = Math.abs(resultado);
-
-        System.out.println("O JOGO DUROU " + jogo + " HORA(S)");
-
+        else if(inicial > fim){
+            hora = (24 - inicial) + fim;
+        }
+        else {
+            hora = fim - inicial;
+        }
+        System.out.println("O JOGO DUROU " + hora + " HORA(S)");
         sc.close();
-
     }
 }
