@@ -32,7 +32,6 @@ public class Main5 {
 
         System.out.printf("Total: R$ %.2f", total);
 
-
         sc.close();
     }
 }
