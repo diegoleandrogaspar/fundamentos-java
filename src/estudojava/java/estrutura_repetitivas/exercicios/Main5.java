@@ -13,13 +13,17 @@ public class Main5 {
 
         Exemplos:
         Entrada: Saída:
-        4 24
-        Entrada: Saída:
-        1 1
-        Entrada: Saída:
-        5 120
-        Entrada: Saída:
-        0 1
+        4
+        Saída:24
+        Entrada:
+        1
+        Saída:1
+        Entrada:
+        5
+        Saída: 120
+        Entrada:
+        0
+        Saída: 1
          */
 
         Locale.setDefault(Locale.US);
@@ -39,6 +43,5 @@ public class Main5 {
         }
         System.out.println(x);
         sc.close();
-
     }
 }
