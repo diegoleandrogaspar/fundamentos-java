@@ -12,18 +12,20 @@ public class Main01 {
 
         Scanner sc = new Scanner(System.in);
 
-
         int x = sc.nextInt();
 
         int[] num = new int[x];
 
         for (int i=0; i< num.length; i++){
-            if (num[i] < 0) {
-                System.out.print(num[i]);
-
-            }
+            num[i] = sc.nextInt();
         }
 
+        System.out.println("Números negativos:");
+        for (int i=0; i< num.length; i++){
+            if (num[i] < 0 ){
+                System.out.println(num[i]);
+            }
+        }
 
         sc.close();
 
