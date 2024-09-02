@@ -18,6 +18,7 @@ public class Main03 {
         Scanner sc = new Scanner(System.in);
 
         int x = sc.nextInt();
+        sc.nextLine();
 
         Pessoa[] pessoas = new Pessoa[x];
 
@@ -31,6 +32,7 @@ public class Main03 {
             pessoa.idade = sc.nextInt();
             System.out.println("Altura:");
             pessoa.altura = sc.nextDouble();
+            sc.nextLine();
             pessoas[i] = pessoa;
         }
 
@@ -44,12 +46,11 @@ public class Main03 {
             }
         }
 
-
         double altura = media /x;
         double porcentagem = (countIdade / (double) x * 100);
 
-        System.out.printf("Altura média: %.2f\n", media);
-        System.out.printf("Pessoas com menos de 16 anos: %.1f%%\n", porcentagemMenores16);
+        System.out.printf("Altura média: %.2f\n", altura);
+        System.out.printf("Pessoas com menos de 16 anos: %.1f%%\n", porcentagem);
 
         for (int i = 0; i < pessoas.length; i++) {
             if (pessoas[i].idade < 16) {
