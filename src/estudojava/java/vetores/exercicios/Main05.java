@@ -37,7 +37,7 @@ public class Main05 {
         }
         System.out.println();
 
-        double maior = 0.0;
+        double maior = num[0];
         int indice = 0;
 
         for (int i=0; i< num.length; i++){
