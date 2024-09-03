@@ -55,7 +55,6 @@ public class Main10 {
             aluno.nota2 = sc.nextDouble();
             alunos[i] = aluno;
         }
-
         double media = 6.0;
 
         System.out.println("Alunos Aprovados:");
