@@ -7,7 +7,7 @@ Os exercícios são divididos em diferentes tópicos fundamentais da linguagem J
     <li><strong>Estrutura Sequencial:</strong> Exercícios básicos de entrada e saída de dados.</li>
     <li><strong>Estrutura Condicional:</strong> Exercícios com foco em condições e ramificações.</li>
     <li><strong>Estruturas Repetitivas:</strong> Prática com loops (for, while, do-while).</li>
-    <li><strong>Estrutura de Dados e Listas:</strong> Implementação de arrays, listas, pilhas, filas e outros.</li>
+    <li><strong>Estrutura de Dados e listas.Listas:</strong> Implementação de arrays, listas, pilhas, filas e outros.</li>
     <li><strong>Programação Orientada a Objetos (POO):</strong> Conceitos de classes, objetos, herança, polimorfismo, encapsulamento.</li>
     <li><strong>Tratamento de Exceções:</strong> Como lidar com erros e exceções em Java.</li>
     <li><strong>Interfaces:</strong> Implementação de interfaces e contratos.</li>
