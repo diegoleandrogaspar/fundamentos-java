@@ -76,7 +76,6 @@ public class Main01 {
                 .filter(z -> z.getId() == y)
                 .collect(Collectors.toList());
 
-
         for (Funcionario r: result){
             r.setSalario(r.getSalario() * (1 + porcent /100));
         }
@@ -85,8 +84,6 @@ public class Main01 {
         for (Funcionario f: funcionarioList){
             System.out.println(f.getId() + ", " + f.getNome() + ", " + String.format("%.2f", f.getSalario()));
         }
-
         sc.close();
-
     }
 }
