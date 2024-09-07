@@ -33,17 +33,45 @@ public class Main02 {
 
         int a = sc.nextInt();
 
-        int x = sc.nextInt();
-        int y = sc.nextInt();
+        int x = 3;
+        int y = 4;
 
         int[][] num = new int[x][y];
 
         for (int i=0; i < num.length; i++){
-            for (int j =0; j <num[y].length; j++){
+            for (int j =0; j <num[i].length; j++){
                 num[i][j] = sc.nextInt();
             }
         }
 
+        for (int i=0; i < num.length; i++){
+            for (int j =0; j <num[i].length; j++){
+                if (num[i][j] == a){
+                    System.out.println("Position " + i + "," + j);
+
+                    if (j > 0){
+                        System.out.println("Left: " + num[i][j-1]);
+                    }
+                    if (j < num[i].length -1){
+                        System.out.println("Right: " + num[i][j+1]);
+                    }
+
+                    if (i >0){
+                        System.out.println("Up " + num[i-1][j]);
+                    }
+
+                    if (i < num.length -1){
+                        System.out.println("Down : " + num[i + 1][j]);
+                    }
+                }
+
+            }
+        }
+
+
+
+
+        sc.close();
 
 
     }
