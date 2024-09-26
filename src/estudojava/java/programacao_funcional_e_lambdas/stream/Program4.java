@@ -72,8 +72,6 @@ public class Program4 {
         catch (IOException ex){
             System.out.println("Error: " + ex.getMessage());
         }
-
-
         sc.close();
 
     }
